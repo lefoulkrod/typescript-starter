@@ -1,0 +1,21 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "A starter kit for using webpack to bundle a typescript project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
